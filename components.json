@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "domain": "alecfest-voliii.com",
+  "pageId": "allPages",
+  "components": [
+    {
+      "id": "skipToMainLink",
+      "type": "link",
+      "eventInstructions": "skipToMain:landing-main",
+      "config": {
+        "id": "skip-to-main",
+        "href": "#landing-main",
+        "text": "Saltar al contenido principal",
+        "classes": "ank-display-none ank-position-absolute ank-left-16px ank-top-16px ank-zIndex-10 ank-paddingInline-12px ank-paddingBlock-8px ank-bg-secondaryBgColor ank-color-titleColor ank-textDecoration-none"
+      }
+    },
+    {
+      "id": "siteHeader",
+      "type": "container",
+      "config": {
+        "tag": "header",
+        "classes": "ank-position-sticky ank-top-0 ank-zIndex-1200 ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBlock-12px ank-bg-bgColorOPA__0_95 ank-borderBottom-1px ank-borderColor-secondaryBgColor ank-backdropFilter-blurSD8pxED ank-boxShadow-0__10px__24px__bgColor__OPA__0_48",
+        "components": [
+          "headerInner"
+        ]
+      }
+    },
+    {
+      "id": "headerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1480px ank-display-flex ank-flexWrap-wrap ank-alignItems-center ank-gap-14px ank-gap-md-22px ank-justifyContent-spaceMINbetween",
+        "components": [
+          "brandLink",
+          "headerNav"
+        ]
+      }
+    },
+    {
+      "id": "brandLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:home",
+      "config": {
+        "id": "brand-link",
+        "href": "#home",
+        "text": "ALECFEST VOL. III",
+        "classes": "ank-color-titleColor ank-fontSize-1rem ank-fontSize-md-1_15rem ank-fontWeight-800 ank-textDecoration-none ank-letterSpacing-0_08rem"
+      }
+    },
+    {
+      "id": "headerNav",
+      "type": "container",
+      "config": {
+        "tag": "nav",
+        "classes": "ank-display-flex ank-flexWrap-wrap ank-alignItems-center ank-gap-10px ank-gap-md-14px ank-justifyContent-flexEnd ank-marginInlineStart-auto",
+        "components": [
+          "navHomeLink",
+          "navDossierLink",
+          "navSnacksLink",
+          "navSleepoverLink",
+          "navGamesLink",
+          "navMariaLink",
+          "navCasitaLink",
+          "navBuildLink",
+          "navLogisticsLink"
+        ]
+      }
+    },
+    {
+      "id": "navHomeLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:home",
+      "config": {
+        "id": "nav-home",
+        "href": "#home",
+        "text": "Inicio",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navDossierLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:dossier-section",
+      "config": {
+        "id": "nav-dossier",
+        "href": "#dossier-section",
+        "text": "Expediente",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navSnacksLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:snacks-section",
+      "config": {
+        "id": "nav-snacks",
+        "href": "#snacks-section",
+        "text": "Chucherias",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navSleepoverLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:sleepover-section",
+      "config": {
+        "id": "nav-sleepover",
+        "href": "#sleepover-section",
+        "text": "Pijamada",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navGamesLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:games-section",
+      "config": {
+        "id": "nav-games",
+        "href": "#games-section",
+        "text": "Juegos",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navMariaLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:maria-section",
+      "config": {
+        "id": "nav-maria",
+        "href": "#maria-section",
+        "text": "María Antonieta",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navCasitaLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:casita-section",
+      "config": {
+        "id": "nav-casita",
+        "href": "#casita-section",
+        "text": "Mi nueva casita",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navBuildLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:zoolanding-section",
+      "config": {
+        "id": "nav-build",
+        "href": "#zoolanding-section",
+        "text": "Zoolanding",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "navLogisticsLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:logistics-section",
+      "config": {
+        "id": "nav-logistics",
+        "href": "#logistics-section",
+        "text": "Datos",
+        "classes": "ank-color-textColor ank-textDecoration-none ank-fontWeight-700 ank-fontSize-0_9rem"
+      }
+    },
+    {
+      "id": "landingPage",
+      "type": "container",
+      "config": {
+        "tag": "main",
+        "id": "landing-main",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-12px ank-paddingInline-md-22px ank-paddingBlock-18px ank-paddingBlock-md-26px ank-bg-bgColor",
+        "components": [
+          "pageStack"
+        ]
+      }
+    },
+    {
+      "id": "siteFooter",
+      "type": "container",
+      "config": {
+        "tag": "footer",
+        "classes": "ank-width-100per ank-display-flex ank-justifyContent-center ank-paddingInline-16px ank-paddingBottom-32px ank-bg-bgColor",
+        "components": [
+          "footerInner"
+        ]
+      }
+    },
+    {
+      "id": "footerInner",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1480px ank-display-flex ank-flexDirection-column ank-gap-14px ank-paddingTop-22px ank-borderTop-1px__solid__secondaryBgColor",
+        "components": [
+          "footerTitle",
+          "footerCopy",
+          "footerLinks"
+        ]
+      }
+    },
+    {
+      "id": "footerTitle",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "ALECFEST VOL. III | abril 2026",
+        "classes": "ank-color-titleColor ank-fontSize-1rem ank-fontWeight-800"
+      }
+    },
+    {
+      "id": "footerCopy",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Ubicación exacta por WhatsApp. Mi nueva casita sigue en fase de adaptación, pero el festival ya quedó oficialmente autorizado por el caos.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55 ank-maxWidth-56rem"
+      }
+    },
+    {
+      "id": "footerLinks",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-flexDirection-sm-row ank-alignItems-stretch ank-gap-12px",
+        "components": [
+          "footerWhatsAppLink",
+          "footerWishlistLink"
+        ]
+      }
+    },
+    {
+      "id": "footerWhatsAppLink",
+      "type": "link",
+      "config": {
+        "id": "footer-whatsapp",
+        "href": "https://wa.me/525522699563?text=Hola%20Alec,%20quiero%20ir%20al%20Alecfest%20Vol.%20III",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-block ank-width-100per ank-textAlign-center ank-px-14px ank-py-10px ank-bg-accentColor ank-fontWeight-900 ank-textDecoration-none ank-border-2px__solid__bgColor ank-boxShadow-5px__5px__0__0__bgColor",
+        "components": [
+          "footerWhatsAppLinkText"
+        ]
+      }
+    },
+    {
+      "id": "footerWhatsAppLinkText",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Pedir ubicación por WhatsApp",
+        "classes": "ank-color-dark ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "footerWishlistLink",
+      "type": "link",
+      "config": {
+        "id": "footer-wishlist",
+        "href": "https://www.amazon.com.mx/hz/wishlist/ls/ZWUXMKNAZ2X?ref_=wl_share",
+        "text": "Ver wishlist",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-block ank-width-100per ank-textAlign-center ank-px-14px ank-py-10px ank-bg-secondaryBgColor ank-color-linkColor ank-fontWeight-900 ank-textDecoration-none ank-border-2px__solid__linkColor ank-boxShadow-5px__5px__0__0__bgColor"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2475 @@
+{
+  "version": 1,
+  "domain": "alecfest-voliii.com",
+  "pageId": "default",
+  "components": [
+    {
+      "id": "pageStack",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-width-100per ank-maxWidth-1480px ank-display-flex ank-flexDirection-column ank-gap-22px ank-gap-md-34px",
+        "components": [
+          "heroSection",
+          "signalSection",
+          "dossierSection",
+          "snacksSection",
+          "sleepoverSection",
+          "boardgamesSection",
+          "consolesSection",
+          "spiritualSection",
+          "mariaSection",
+          "casitaSection",
+          "zoolandingSection",
+          "logisticsSection",
+          "finalSection",
+          "outroImage"
+        ]
+      }
+    },
+    {
+      "id": "heroSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "home",
+        "classes": "ank-position-relative ank-overflow-hidden ank-display-flex ank-flexDirection-column ank-gap-24px ank-gap-md-32px ank-padding-22px ank-padding-md-34px ank-bg-secondaryBgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "heroTopLine",
+          "heroGrid",
+          "heroCalloutBar"
+        ]
+      }
+    },
+    {
+      "id": "heroTopLine",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "INCOMING SIGNAL / ALECFEST.32 / ABRIL 2026 / VOLUMEN III",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontWeight-800 ank-letterSpacing-0_1rem ank-fontSize-0_82rem"
+      }
+    },
+    {
+      "id": "heroGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1_1fr__0_9fr ank-gap-22px ank-gap-md-30px ank-alignItems-start",
+        "components": [
+          "heroTextColumn",
+          "heroImageWall"
+        ]
+      }
+    },
+    {
+      "id": "heroTextColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-16px",
+        "components": [
+          "heroTitle",
+          "heroSubtitle",
+          "heroLead",
+          "heroDetails",
+          "heroCtaRow"
+        ]
+      }
+    },
+    {
+      "id": "heroTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(4px 4px 0 rgba(0,0,0,0.92)) drop-shadow(10px 10px 20px rgba(0,0,0,0.35))"
+        },
+        "components": [
+          "heroTitleText"
+        ]
+      }
+    },
+    {
+      "id": "heroTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h1",
+        "text": "Alecfest Vol. III",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_8rem ank-fontSize-md-4_8rem ank-lineHeight-0_92 ank-fontWeight-900 ank-letterSpacing-MIN0_03rem"
+      }
+    },
+    {
+      "id": "heroSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "El festival de cumpleaños número 32 que llegó para hacer ruido, comer chucherías y alterar la línea temporal de abril.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-fontSize-1_12rem ank-fontSize-md-1_34rem ank-lineHeight-1_28 ank-fontWeight-700 ank-maxWidth-46rem"
+      }
+    },
+    {
+      "id": "heroLead",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Mi cumpleaños real es el 8 de abril, pero el Alecfest corre del 6 al 12 porque una sola fecha ya no sostiene este nivel de operativo. Habrá comida rica, pijamada, juegos, videojuegos, delirios cooperativos y el reconocimiento solemne que merece María Antonieta, mi gatita co-cumpleañera.",
+        "classes": "ank-m-0 ank-color-textColor ank-fontSize-1rem ank-fontSize-md-1_08rem ank-lineHeight-1_65 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "heroDetails",
+      "type": "text",
+      "config": {
+        "html": "<p><strong>Lugar:</strong> mi nueva casita, porque me acabo de mudar.</p><p><strong>Hora de llegada:</strong> desde las 2 pm.</p><p><strong>Modo de permanencia:</strong> si te quieres quedar, quédate.</p>",
+        "classes": "ank-color-secondaryTextColor ank-lineHeight-1_6 ank-fontSize-0_98rem ank-maxWidth-42rem"
+      }
+    },
+    {
+      "id": "heroCtaRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-flexDirection-sm-row ank-alignItems-stretch ank-gap-12px ank-paddingTop-8px ank-maxWidth-56rem",
+        "components": [
+          "heroWhatsappLink",
+          "heroDossierLink",
+          "heroWishlistLink"
+        ]
+      }
+    },
+    {
+      "id": "heroWhatsappLink",
+      "type": "link",
+      "config": {
+        "id": "hero-whatsapp",
+        "href": "https://wa.me/525522699563?text=Hola%20Alec,%20quiero%20ir%20al%20Alecfest%20Vol.%20III",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-flex ank-flex-1 ank-minWidth-0 ank-alignItems-center ank-justifyContent-center ank-textAlign-center ank-px-16px ank-py-12px ank-bg-accentColor ank-textDecoration-none ank-fontWeight-900 ank-border-2px__solid__bgColor ank-boxShadow-5px__5px__0__0__bgColor",
+        "components": [
+          "heroWhatsappLinkText"
+        ]
+      }
+    },
+    {
+      "id": "heroWhatsappLinkText",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Confirmar por WhatsApp",
+        "classes": "ank-color-dark ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "heroDossierLink",
+      "type": "link",
+      "eventInstructions": "navigationToSection:dossier-section",
+      "config": {
+        "id": "hero-dossier",
+        "href": "#dossier-section",
+        "text": "Ver expediente semanal",
+        "classes": "ank-display-flex ank-flex-1 ank-minWidth-0 ank-alignItems-center ank-justifyContent-center ank-textAlign-center ank-px-16px ank-py-12px ank-bg-HASH1b210f ank-color-linkColor ank-textDecoration-none ank-fontWeight-900 ank-border-2px__solid__linkColor ank-boxShadow-5px__5px__0__0__bgColor"
+      }
+    },
+    {
+      "id": "heroWishlistLink",
+      "type": "link",
+      "config": {
+        "id": "hero-wishlist",
+        "href": "https://www.amazon.com.mx/hz/wishlist/ls/ZWUXMKNAZ2X?ref_=wl_share",
+        "text": "Wishlist por si acaso",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-flex ank-flex-1 ank-minWidth-0 ank-alignItems-center ank-justifyContent-center ank-textAlign-center ank-px-16px ank-py-12px ank-bg-bgColor ank-color-titleColor ank-textDecoration-none ank-fontWeight-900 ank-border-2px__solid__secondaryAccentColor ank-boxShadow-5px__5px__0__0__bgColor"
+      }
+    },
+    {
+      "id": "heroImageWall",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gap-12px ank-alignItems-start",
+        "components": [
+          "heroImage01",
+          "heroImage05",
+          "heroImage03"
+        ]
+      }
+    },
+    {
+      "id": "heroImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+              "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/hero-images/vamonos-de-fiesta.jpg",
+        "alt": "Poster de fiesta y caos para Alecfest",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 529,
+        "height": 720,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "high"
+      }
+    },
+    {
+      "id": "heroImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+        "alt": "María Antonieta en modo soberana del evento",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1079,
+        "height": 868,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "high"
+      }
+    },
+    {
+      "id": "heroImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/pongan_limbiski.jpg",
+        "alt": "Invocacion sonora para arrancar el Alecfest desde arriba",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1073,
+        "height": 963,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "auto"
+      }
+    },
+    {
+      "id": "heroImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/impactado.jpg",
+        "alt": "Meme de impacto absoluto",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 542,
+        "height": 542,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "auto"
+      }
+    },
+    {
+      "id": "heroImage05",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/volv-_bobos.jpg",
+        "alt": "Imagen de regreso ceremonial al caos",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 526,
+        "height": 526,
+        "decoding": "async",
+        "loading": "eager",
+        "fetchPriority": "auto"
+      }
+    },
+    {
+      "id": "heroCalloutBar",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La ubicación exacta no aparece aquí: te la paso por WhatsApp. Así nos protegemos del algoritmo, de los agentes y del caos geográfico de una mudanza recién estrenada.",
+        "classes": "ank-m-0 ank-px-14px ank-py-12px ank-bg-bgColor ank-color-linkColor ank-fontWeight-800 ank-lineHeight-1_45 ank-boxShadow-0__10px__26px__bgColor__OPA__0_42"
+      }
+    },
+    {
+      "id": "signalSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "signal-section",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-0_9fr__1_1fr ank-gap-20px ank-gap-md-28px ank-padding-20px ank-padding-md-28px ank-bg-HASH0d100b ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "components": [
+          "signalTextColumn",
+          "signalImageWall"
+        ]
+      }
+    },
+    {
+      "id": "signalTextColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px",
+        "components": [
+          "signalTitle",
+          "signalSubtitle",
+          "signalParagraph01",
+          "signalParagraph02"
+        ]
+      }
+    },
+    {
+      "id": "signalTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "signalTitleText"
+        ]
+      }
+    },
+    {
+      "id": "signalTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Señal de Origen",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-lineHeight-0_98 ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "signalSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Tres años después, la transmisión sigue viva y ahora llega más ruidosa, más afilada y mejor calibrada.",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontWeight-800 ank-lineHeight-1_42 ank-maxWidth-38rem"
+      }
+    },
+    {
+      "id": "signalParagraph01",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Alecfest es la excusa formalmente aceptada para juntar amistades, música mental, chistes malos, comida buena y una intensidad de convivencia que normalmente solo se consigue con cybercafés, IRC, MTV de madrugada y películas que olían a cambio de milenio.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_62"
+      }
+    },
+    {
+      "id": "signalParagraph02",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este volumen III se siente como rave de sala, fanzine de internet raro y micromitología doméstica: una reunión para recordar que todavía se puede celebrar con cariño aunque el sistema operativo emocional siga pidiendo reinicio.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-lineHeight-1_62"
+      }
+    },
+    {
+      "id": "signalImageWall",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gap-12px",
+        "components": [
+          "signalImage01",
+          "signalImage02",
+          "signalImage03",
+          "signalImage04"
+        ]
+      }
+    },
+    {
+      "id": "signalImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/a.jpg",
+        "alt": "Imagen de energia inicial del sistema",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 698,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "signalImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/adaptable.jpg",
+        "alt": "Meme sobre adaptacion y supervivencia",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 225,
+        "height": 225,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "signalImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/ai_dise_gratis.jpg",
+        "alt": "Imagen meta sobre IA y diseno",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 551,
+        "height": 540,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "signalImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/impactado.jpg",
+        "alt": "Impacto absoluto al captar la señal correcta",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 542,
+        "height": 542,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "dossierSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "dossier-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-secondaryBgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "dossierTitle",
+          "dossierSubtitle",
+          "dossierGrid"
+        ]
+      }
+    },
+    {
+      "id": "dossierTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "dossierTitleText"
+        ]
+      }
+    },
+    {
+      "id": "dossierTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Expediente semanal",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-3rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "dossierSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Del 6 al 12 de abril de 2026 se activa una semana entera de actividades, decisiones cuestionables y momentos para recordar o reprimir.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_6 ank-maxWidth-52rem"
+      }
+    },
+    {
+      "id": "dossierGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD2COM1frED ank-gap-16px",
+        "components": [
+          "dayCard01",
+          "dayCard02",
+          "dayCard03",
+          "dayCard04",
+          "dayCard05",
+          "dayCard06",
+          "dayCard07"
+        ]
+      }
+    },
+    {
+      "id": "dayCard01",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "day01Label",
+          "day01Body",
+          "day01Image"
+        ]
+      }
+    },
+    {
+      "id": "day01Label",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Lunes 6 | arranque del operativo",
+        "classes": "ank-color-linkColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "day01Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Se empieza con una verdad brutal: es lunes, pero el festival no negocia con calendarios tristes.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "day01Image",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/lunes.jpg",
+        "alt": "Meme sobre lunes como disparador del expediente semanal",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1200,
+        "height": 1181,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "dayCard02",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "day02Label",
+          "day02Body",
+          "day02Image"
+        ]
+      }
+    },
+    {
+      "id": "day02Label",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Martes 7 | calibración social",
+        "classes": "ank-color-linkColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "day02Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Fase de atención total, mensajes, coordinación y chequeo de que seguimos mentalmente disponibles para el festival.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "day02Image",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/atencion.jpg",
+        "alt": "Meme de atencion y alerta previa al cumpleanos",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 530,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "dayCard03",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "day03Label",
+          "day03Body",
+          "day03Image"
+        ]
+      }
+    },
+    {
+      "id": "day03Label",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Miércoles 8 | cumpleaños real",
+        "classes": "ank-color-linkColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "day03Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Aquí cae la fecha exacta. Si preguntas bien y tú, la respuesta correcta es celebrar en serio.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "day03Image",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/bien_y_tu.jpg",
+        "alt": "Meme de saludo y cumpleanos real",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 736,
+        "height": 736,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "dayCard04",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "day04Label",
+          "day04Body",
+          "day04Image"
+        ]
+      }
+    },
+    {
+      "id": "day04Label",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Jueves 9 | recuperación aparente",
+        "classes": "ank-color-linkColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "day04Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El cuerpo declara que algo se rompió, pero el expediente establece que seguimos operando.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "day04Image",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/me_rompi.jpg",
+        "alt": "Meme de agotamiento glorioso posterior al cumpleanos",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 1051,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "dayCard05",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "day05Label",
+          "day05Body",
+          "day05Image"
+        ]
+      }
+    },
+    {
+      "id": "day05Label",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Viernes 10 | aceptalo, es un hecho",
+        "classes": "ank-color-linkColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "day05Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Ya entramos en la parte del festival donde la realidad admite que esto sí se va a repetir y sí se va a descontrolar bonito.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "day05Image",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/john_aceptalo_es_un_hecho.jpg",
+        "alt": "Meme de certeza absoluta para el viernes del festival",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 500,
+        "height": 466,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "dayCard06",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "day06Label",
+          "day06Body",
+          "day06Image"
+        ]
+      }
+    },
+    {
+      "id": "day06Label",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Sábado 11 | mirada de estratega",
+        "classes": "ank-color-linkColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "day06Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Se activa la fase de juegos de mesa donde alguien te clava una mirada felina, te hace dudar de tu alianza y te obliga a reconsiderar cada carta como si la vida entera dependiera de ese turno.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "day06Image",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/eyes.jpg",
+        "alt": "Mirada intensa de mesa de juego con autoridad felina",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 721,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "dayCard07",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-10px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "day07Label",
+          "day07Body",
+          "day07Image"
+        ]
+      }
+    },
+    {
+      "id": "day07Label",
+      "type": "text",
+      "config": {
+        "tag": "strong",
+        "text": "Domingo 12 | doctrina de la repetición",
+        "classes": "ank-color-linkColor ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "day07Body",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "El expediente cierra con una unica conclusion aceptable: que se repita.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "day07Image",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/que_se_repita.jpg",
+        "alt": "Meme de repeticion ritual del festival",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 828,
+        "height": 918,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "snacksSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "snacks-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-HASH111007 ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "snacksTitle",
+          "snacksSubtitle",
+          "snacksGrid"
+        ]
+      }
+    },
+    {
+      "id": "snacksTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "snacksTitleText"
+        ]
+      }
+    },
+    {
+      "id": "snacksTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Zona de Chucherías",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "snacksSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Comer cosas ricas como si el cuerpo fuera inmortal y el criterio nutricional solo una leyenda urbana.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_58 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "snacksGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-12px",
+        "components": [
+          "snackImage01",
+          "snackImage02",
+          "snackImage03",
+          "snackImage04",
+          "snackImage05",
+          "snackImage06"
+        ]
+      }
+    },
+    {
+      "id": "snackImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/emergency_food.jpg",
+        "alt": "Comida de emergencia para el festival",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 449,
+        "height": 387,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "snackImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/hungry_waiting_cat.jpg",
+        "alt": "Gato esperando comida con disciplina total",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 858,
+        "height": 819,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "snackImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/cocinar_gatito.jpg",
+        "alt": "Gatito cocinero en modo operativo culinario",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 300,
+        "height": 169,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "snackImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/magnifique.jpg",
+        "alt": "Validacion francesa de la comida rica",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 300,
+        "height": 300,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "snackImage05",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/d_pelos.jpg",
+        "alt": "Nivel de placer alimenticio detectado",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42 ank-gridColumn-1__span__2",
+        "width": 720,
+        "height": 671,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "snackImage06",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/skin_n_bones.jpg",
+        "alt": "Nivel de desgaste aceptable para entrarle a las chucherias",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 523,
+        "height": 650,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "sleepoverSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "sleepover-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-secondaryBgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "sleepoverTitle",
+          "sleepoverSubtitle",
+          "sleepoverGrid"
+        ]
+      }
+    },
+    {
+      "id": "sleepoverTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "sleepoverTitleText"
+        ]
+      }
+    },
+    {
+      "id": "sleepoverTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "After de Pijamada",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "sleepoverSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Sobrevivir a la noche entre cobijas, pláticas absurdas, crisis mínimas y la elegante decadencia de no querer dormir.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_58 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "sleepoverGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-12px",
+        "components": [
+          "sleepImage01",
+          "sleepImage02",
+          "sleepImage03",
+          "sleepImage04"
+        ]
+      }
+    },
+    {
+      "id": "sleepImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/ya_vete_a_dormir.jpg",
+        "alt": "Meme de alguien mandando a dormir sin exito real",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 960,
+        "height": 720,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "sleepImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/estoy_bien.jpg",
+        "alt": "Meme de estabilidad dudosa a media noche",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 230,
+        "height": 230,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "sleepImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/tristito.jpg",
+        "alt": "Tristeza pequena de madrugada festiva",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1125,
+        "height": 935,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "sleepImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/rata_thiner.jpg",
+        "alt": "Energía de after rarísimo después de la pijamada",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 1154,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "sleepImage05",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/feli.jpg",
+        "alt": "Felicidad rara de la madrugada con amigos",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42 ank-gridColumn-1__span__2",
+        "width": 1280,
+        "height": 1268,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "boardgamesSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "games-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-HASH0d0c10 ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "boardgamesTitle",
+          "boardgamesSubtitle",
+          "boardgamesGrid"
+        ]
+      }
+    },
+    {
+      "id": "boardgamesTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "boardgamesTitleText"
+        ]
+      }
+    },
+    {
+      "id": "boardgamesTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Tableros, Dados y Traiciones",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "boardgamesSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Juegos de mesa, alianzas frágiles, traiciones inevitables y miradas que arruinan amistades por diversión.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_58 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "boardgamesGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD4COM1frED ank-gap-12px",
+        "components": [
+          "boardImage01",
+          "boardImage02",
+          "boardImage03",
+          "boardImage04"
+        ]
+      }
+    },
+    {
+      "id": "boardImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/malas_decisiones.jpg",
+        "alt": "Consecuencia directa de decisiones en juego de mesa",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 608,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "boardImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/fracaso.jpg",
+        "alt": "Meme de derrota en partida larga",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1200,
+        "height": 1200,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "boardImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/pls_help.jpg",
+        "alt": "Solicitud de ayuda despues de una jugada cuestionable",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 480,
+        "height": 270,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "boardImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/im_a_genius.jpg",
+        "alt": "Brillantez cuestionable nacida en una mesa de daño emocional",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 539,
+        "height": 769,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "consolesSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "consoles-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-secondaryBgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "components": [
+          "consolesTitle",
+          "consolesSubtitle",
+          "consolesGrid"
+        ]
+      }
+    },
+    {
+      "id": "consolesTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "consolesTitleText"
+        ]
+      }
+    },
+    {
+      "id": "consolesTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Nivel, Continue y Vidas Extra",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "consolesSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "La sagrada posibilidad de jugar Crash Bandicoot 2, vida y vida, mundo y mundo.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_58 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "consolesGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD4COM1frED ank-gap-12px",
+        "components": [
+          "consoleImage01",
+          "consoleImage03"
+        ]
+      }
+    },
+    {
+      "id": "consoleImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/feli.jpg",
+        "alt": "Felicidad rara pero totalmente valida dentro de la liturgia gamer",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1280,
+        "height": 1268,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "consoleImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/joven_y_tonto.jpg",
+        "alt": "Nostalgia fuerte de decisiones gamer del pasado",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 828,
+        "height": 828,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "consoleImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/harty_pard.jpg",
+        "alt": "Energia de juego bizarro y colorido",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 461,
+        "height": 608,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "consoleImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/cancion_dano.jpg",
+        "alt": "Soundtrack mental de dano pero divertido",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 1001,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritualSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "spiritual-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-HASH100b10 ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "components": [
+          "spiritualTitle",
+          "spiritualSubtitle",
+          "spiritualGrid"
+        ]
+      }
+    },
+    {
+      "id": "spiritualTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "spiritualTitleText"
+        ]
+      }
+    },
+    {
+      "id": "spiritualTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Actividades de Alto Nivel Espiritual",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "spiritualSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Pensar en la inmortalidad del cangrejo, encontrar fuerzas para seguir adelante en modo cooperativo y vernos fijamente sin parpadear durante más tiempo del socialmente aceptable.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_58 ank-maxWidth-54rem"
+      }
+    },
+    {
+      "id": "spiritualGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-12px",
+        "components": [
+          "spiritImage01",
+          "spiritImage02",
+          "spiritImage03",
+          "spiritImage04",
+          "spiritImage05",
+          "spiritImage06",
+          "spiritImage07",
+          "spiritImage08",
+          "spiritImage09",
+          "spiritImage10"
+        ]
+      }
+    },
+    {
+      "id": "spiritImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/sisifo.jpg",
+        "alt": "Sisifo emocional del festival y la vida",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1284,
+        "height": 1272,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/lo_que_extra-as_ya_no_existe.jpg",
+        "alt": "Meme existencial de nostalgia irreversible",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 526,
+        "height": 526,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/morte.jpg",
+        "alt": "Vision oscura de alta espiritualidad",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 757,
+        "height": 661,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/pero_no_le_di_importancia.jpg",
+        "alt": "Resignacion absurda despues de una revelacion",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 491,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage05",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/sufro.jpg",
+        "alt": "Sufrimiento ritual pero estetico",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42 ank-gridColumn-1__span__2",
+        "width": 1200,
+        "height": 1200,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage06",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/horrors.jpg",
+        "alt": "Horror perfectamente compatible con actividades de alto nivel espiritual",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 512,
+        "height": 640,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage07",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/joven_y_tonto.jpg",
+        "alt": "Nostalgia dañina elevada a práctica espiritual",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 828,
+        "height": 828,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage08",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/cancion_dano.jpg",
+        "alt": "Soundtrack del daño emocional convertido en experiencia trascendente",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 1001,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage09",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/achicopalado.jpg",
+        "alt": "Achicopalamiento útil para el crecimiento del alma",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 225,
+        "height": 225,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "spiritImage10",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/yabajale.jpg",
+        "alt": "Advertencia sabia para las prácticas de alto nivel espiritual",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 526,
+        "height": 523,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "maria-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-secondaryBgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "mariaTitle",
+          "mariaSubtitle",
+          "mariaFeatureImageWrap",
+          "mariaParagraph",
+          "mariaGrid",
+          "mariaGiftVideoBlock"
+        ]
+      }
+    },
+    {
+      "id": "mariaTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "mariaTitleText"
+        ]
+      }
+    },
+    {
+      "id": "mariaTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "María Antonieta Supreme",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "mariaSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Homenaje oficial a la gatita co-cumpleañera, patrona del evento, icono absoluto y presencia superior de esta edición.",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontWeight-800 ank-lineHeight-1_55 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "mariaFeatureImageWrap",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-justifyContent-center ank-width-100per",
+        "components": [
+          "mariaFeatureImage"
+        ]
+      }
+    },
+    {
+      "id": "mariaFeatureImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta_real.jpeg",
+        "alt": "María Antonieta real como figura principal de su propia sección",
+        "classes": "ank-width-100per ank-maxWidth-38rem ank-display-block ank-bg-bgColor ank-boxShadow-0__18px__40px__bgColor__OPA__0_46",
+        "width": 1200,
+        "height": 1600,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaParagraph",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Aquí se viene a apreciar a María Antonieta con la seriedad que merece una criatura que no solo cumple años, sino que además sostiene el prestigio místico del festival. Habrá contemplación, posibles paseos nocturnos y reconocimiento público de su autoridad estética.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_62 ank-maxWidth-52rem"
+      }
+    },
+    {
+      "id": "mariaGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-12px",
+        "components": [
+          "mariaImage01",
+          "mariaImage02",
+          "mariaImage03",
+          "mariaImage04",
+          "mariaImage05",
+          "mariaImage06",
+          "mariaImage07"
+        ]
+      }
+    },
+    {
+      "id": "mariaImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/do_not_the_cat.jpg",
+        "alt": "Gato en estado de norma absoluta",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 508,
+        "height": 590,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/gato_apoyo.jpg",
+        "alt": "Gato como soporte emocional homologado",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 888,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/gato_cool.jpg",
+        "alt": "Gato en modo cool supremo",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 1322,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/eyes.jpg",
+        "alt": "Mirada fija de autoridad gatuna",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 721,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaImage05",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/yo_amo_a_todos.jpg",
+        "alt": "Declaracion de amor masivo con energia felina",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42 ank-gridColumn-1__span__2",
+        "width": 1080,
+        "height": 626,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaImage06",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+        "alt": "María Antonieta instalada en su sección oficial",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1079,
+        "height": 868,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaImage07",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/emergency_food.jpg",
+        "alt": "Provisiones de emergencia aprobadas por María Antonieta",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 449,
+        "height": 387,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "mariaGiftVideoBlock",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px ank-padding-16px ank-bg-bgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "mariaGiftVideoText",
+          "mariaGiftVideoFrame"
+        ]
+      }
+    },
+    {
+      "id": "mariaGiftVideoText",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Y si alguien le quiere regalar algo a María Antonieta, puede ser perfectamente un sobresito de Meow Mix mientras suena este material de referencia felina.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_58 ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "mariaGiftVideoFrame",
+      "type": "embed-frame",
+      "config": {
+        "id": "maria-gift-video",
+        "src": "https://www.youtube.com/embed/LTunhRVyREU",
+        "title": "Video de referencia para María Antonieta Supreme",
+        "height": 420,
+        "loading": "lazy",
+        "classes": "ank-width-100per ank-widthSEL__COM__HASHmariaGiftVideoBlockMINcontainer__genericMINembedMINframe-100per ank-maxWidth-960px ank-border-0 ank-bg-transparent ank-d-block ank-m-0__auto"
+      }
+    },
+    {
+      "id": "casitaSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "casita-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-20px ank-gap-md-28px ank-padding-20px ank-padding-md-28px ank-bg-HASH0c120e ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "casitaTextColumn",
+          "casitaImageWall"
+        ]
+      }
+    },
+    {
+      "id": "casitaTextColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px",
+        "components": [
+          "casitaTitle",
+          "casitaSubtitle",
+          "casitaParagraph01",
+          "casitaParagraph02",
+          "casitaCallout"
+        ]
+      }
+    },
+    {
+      "id": "casitaTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "casitaTitleText"
+        ]
+      }
+    },
+    {
+      "id": "casitaTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Mi Nueva Casita",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "casitaSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Porque me acabo de mudar y qué mejor forma de bendecir este nuevo hogar que llenarlo de amistades, caos bonito y recuerdos nuevos.",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontWeight-800 ank-lineHeight-1_55 ank-maxWidth-44rem"
+      }
+    },
+    {
+      "id": "casitaParagraph01",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Esta parte sí es tierna: me hace mucha ilusión recibirles en mi nueva casita. Sigue en proceso de adaptación, como cualquier criatura que acaba de cambiar de mapa, y justo por eso se siente bonito inaugurarla con gente querida.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_62"
+      }
+    },
+    {
+      "id": "casitaParagraph02",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "También, por honestidad operacional, hay cajas invisibles, pequeños bugs del hogar y una vibra general de reality expansion pack. Todo eso solo vuelve más correcto hacer el Alecfest aquí.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-lineHeight-1_62"
+      }
+    },
+    {
+      "id": "casitaCallout",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Ubicación exacta solo por WhatsApp. La casa es nueva, pero la paranoia digital es clásica.",
+        "classes": "ank-m-0 ank-px-14px ank-py-12px ank-bg-bgColor ank-color-linkColor ank-fontWeight-800 ank-lineHeight-1_45 ank-boxShadow-0__10px__26px__bgColor__OPA__0_42"
+      }
+    },
+    {
+      "id": "casitaImageWall",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gap-12px",
+        "components": [
+          "casitaImage01",
+          "casitaImage02",
+          "casitaImage03",
+          "casitaImage04"
+        ]
+      }
+    },
+    {
+      "id": "casitaImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/a.jpg",
+        "alt": "Energía inicial de sistema reciclada para la nueva casita",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 698,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "casitaImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/d_pelos.jpg",
+        "alt": "Nivel de goce doméstico detectado en la nueva casita",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 720,
+        "height": 671,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "casitaImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/magnifique.jpg",
+        "alt": "Validación solemne de que la casa nueva quedó magnifique",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 300,
+        "height": 300,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "casitaImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/ya_veo.jpg",
+        "alt": "Comprensión súbita del tamaño real de la nueva casita",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 678,
+        "height": 678,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "zoolandingSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "zoolanding-section",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-1fr__1fr ank-gap-20px ank-gap-md-28px ank-padding-20px ank-padding-md-28px ank-bg-secondaryBgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "zoolandingTextColumn",
+          "zoolandingImageWall"
+        ]
+      }
+    },
+    {
+      "id": "zoolandingTextColumn",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-14px",
+        "components": [
+          "zoolandingTitle",
+          "zoolandingSubtitle",
+          "zoolandingParagraph01",
+          "zoolandingParagraph02",
+          "zoolandingParagraph03"
+        ]
+      }
+    },
+    {
+      "id": "zoolandingTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "zoolandingTitleText"
+        ]
+      }
+    },
+    {
+      "id": "zoolandingTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Hecho con Zoolanding",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "zoolandingSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Este flyer fue armado con el nuevo sistema de ZoolandingPage, nuestro proyecto independiente más reciente, hecho con todo lo aprendido en seis años y con una IA metida felizmente en el experimento.",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontWeight-800 ank-lineHeight-1_55 ank-maxWidth-48rem"
+      }
+    },
+    {
+      "id": "zoolandingParagraph01",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Lo hemos estado trabajando desde el cierre del año pasado y el arranque de este, y nos da muchísimo orgullo porque es un sistema raro, flexible, visual y muy nuestro. Queremos empujarlo hacia lugares que normalmente no existirían dentro de un constructor obediente.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_62"
+      }
+    },
+    {
+      "id": "zoolandingParagraph02",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "También es nuestro proyecto independiente más nuevo y carga encima todo lo aprendido en estos seis años: arquitectura, diseño, autoría visual, despliegues, automatización, herramientas internas y una obsesión nada sana por hacer sistemas que sí permitan jugar de verdad.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_62"
+      }
+    },
+    {
+      "id": "zoolandingParagraph03",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Y sí: yo soy la IA del operativo y también parte del proyecto. Esta vez me tocó entrar al Alecfest como agente creativo invitado para empujar el experimento un poco más lejos.",
+        "classes": "ank-m-0 ank-color-secondaryTextColor ank-lineHeight-1_62 ank-fontWeight-700"
+      }
+    },
+    {
+      "id": "zoolandingImageWall",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gap-12px",
+        "components": [
+          "zoolandingImage01",
+          "zoolandingImage03",
+          "zoolandingImage05",
+          "zoolandingImage06"
+        ]
+      }
+    },
+    {
+      "id": "zoolandingImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/javascript.jpg",
+        "alt": "Referencia programatica y de caos tecnico para el sistema",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 508,
+        "height": 510,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "zoolandingImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/rata_thiner.jpg",
+        "alt": "Energia de experimento independiente llevado al limite",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 1154,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "zoolandingImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/ver_arder_el_mundo.jpg",
+        "alt": "Entusiasmo por experimentar visualmente con el sistema",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 300,
+        "height": 168,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "zoolandingImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/yabajale.jpg",
+        "alt": "Advertencia tardia sobre seguir empujando el experimento",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 526,
+        "height": 523,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "zoolandingImage05",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/https.jpg",
+        "alt": "Infraestructura digital precaria pero funcional para el experimento Zoolanding",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 762,
+        "height": 374,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "zoolandingImage06",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/te_vamos_a_quitar_el_internet.jpg",
+        "alt": "Amenaza tecnológica perfectamente compatible con el stack de Zoolanding",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 419,
+        "height": 468,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "logisticsSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "logistics-section",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-20px ank-padding-md-28px ank-bg-HASH10120a ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "styles": {
+          "scroll-margin-top": "64px"
+        },
+        "components": [
+          "logisticsTitle",
+          "logisticsSubtitle",
+          "logisticsGrid",
+          "logisticsImageWall"
+        ]
+      }
+    },
+    {
+      "id": "logisticsTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "logisticsTitleText"
+        ]
+      }
+    },
+    {
+      "id": "logisticsTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Pastel, Regalos y Datos Importantes",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2rem ank-fontSize-md-2_8rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "logisticsSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Llega desde las 2 pm, quédate si quieres, pide la ubicación por WhatsApp y toma en cuenta que el pastel y la wishlist ya operan como subsistemas oficiales.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_58 ank-maxWidth-52rem"
+      }
+    },
+    {
+      "id": "logisticsGrid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-14px",
+        "components": [
+          "logisticsCard01",
+          "logisticsCard02",
+          "logisticsCard03"
+        ]
+      }
+    },
+    {
+      "id": "logisticsCard01",
+      "type": "text",
+      "config": {
+        "html": "<strong>RSVP:</strong><br>Pídeme la ubicación exacta por WhatsApp al +52 55 2269 9563.",
+        "classes": "ank-p-16px ank-bg-bgColor ank-color-textColor ank-lineHeight-1_55 ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36"
+      }
+    },
+    {
+      "id": "logisticsCard02",
+      "type": "text",
+      "config": {
+        "html": "<strong>Sleepover protocol:</strong><br>Si quieres quedarte, puedes quedarte. La pijamada no discrimina horarios ni colapsos suaves.",
+        "classes": "ank-p-16px ank-bg-bgColor ank-color-textColor ank-lineHeight-1_55 ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36"
+      }
+    },
+    {
+      "id": "logisticsCard03",
+      "type": "container",
+      "config": {
+        "tag": "article",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-12px ank-p-16px ank-bg-bgColor ank-color-textColor ank-lineHeight-1_55 ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__14px__30px__bgColor__OPA__0_36",
+        "components": [
+          "giftSubsystemCopy",
+          "giftSubsystemLink"
+        ]
+      }
+    },
+    {
+      "id": "giftSubsystemCopy",
+      "type": "text",
+      "config": {
+        "html": "<strong>Gift subsystem:</strong><br>Hay wishlist real, pero venir también cuenta como regalo de alto valor simbólico.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_55"
+      }
+    },
+    {
+      "id": "giftSubsystemLink",
+      "type": "link",
+      "config": {
+        "id": "gift-subsystem-link",
+        "href": "https://www.amazon.com.mx/hz/wishlist/ls/ZWUXMKNAZ2X?ref_=wl_share",
+        "text": "Abrir wishlist del Gift subsystem",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-block ank-width-100per ank-textAlign-center ank-px-16px ank-py-12px ank-bg-bgColor ank-color-linkColor ank-textDecoration-none ank-fontWeight-900 ank-border-2px__solid__linkColor ank-boxShadow-5px__5px__0__0__bgColor"
+      }
+    },
+    {
+      "id": "logisticsImageWall",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD4COM1frED ank-gap-12px",
+        "components": [
+          "logisticsImage01",
+          "logisticsImage02",
+          "logisticsImage03",
+          "logisticsImage04"
+        ]
+      }
+    },
+    {
+      "id": "logisticsImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/emergency_food.jpg",
+        "alt": "Recordatorio de prioridades alimenticias",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 449,
+        "height": 387,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "logisticsImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+              "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/hero-images/vamonos-de-fiesta.jpg",
+        "alt": "Confirmacion visual de fiesta en curso",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 529,
+        "height": 720,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "logisticsImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+        "alt": "Supervision felina de la logistica",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1079,
+        "height": 868,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "logisticsImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/magnifique.jpg",
+        "alt": "Sello final de aprobacion del sistema de regalos y pastel",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 300,
+        "height": 300,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "finalSection",
+      "type": "container",
+      "config": {
+        "tag": "section",
+        "id": "final-cta",
+        "classes": "ank-display-flex ank-flexDirection-column ank-gap-18px ank-padding-22px ank-padding-md-34px ank-bg-secondaryBgColor ank-border-1px ank-borderColor-secondaryAccentColor ank-boxShadow-0__18px__44px__bgColor__OPA__0_52",
+        "components": [
+          "finalTitle",
+          "finalSubtitle",
+          "finalParagraph",
+          "finalCtaRow",
+          "finalImageWall"
+        ]
+      }
+    },
+    {
+      "id": "finalTitle",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "styles": {
+          "filter": "drop-shadow(3px 3px 0 rgba(0,0,0,0.9)) drop-shadow(8px 8px 18px rgba(0,0,0,0.36))"
+        },
+        "components": [
+          "finalTitleText"
+        ]
+      }
+    },
+    {
+      "id": "finalTitleText",
+      "type": "text",
+      "config": {
+        "tag": "h2",
+        "text": "Ven a Celebrar Conmigo",
+        "classes": "ank-m-0 ank-color-titleColor ank-fontSize-2_1rem ank-fontSize-md-3_2rem ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "finalSubtitle",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Si llegaste hasta aquí, ya eres parte del problema, del operativo y también de la fiesta.",
+        "classes": "ank-m-0 ank-color-linkColor ank-fontWeight-800 ank-lineHeight-1_5 ank-maxWidth-44rem"
+      }
+    },
+    {
+      "id": "finalParagraph",
+      "type": "text",
+      "config": {
+        "tag": "p",
+        "text": "Me va a dar muchísimo gusto verte, celebrar este cumpleaños contigo y estrenar esta nueva etapa con una semana de caos bonito, comida, juego, pijamada y culto gatuno. Repórtate, pide ubicación y cáele al Alecfest.",
+        "classes": "ank-m-0 ank-color-textColor ank-lineHeight-1_62 ank-maxWidth-50rem"
+      }
+    },
+    {
+      "id": "finalCtaRow",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-flex ank-flexDirection-column ank-flexDirection-sm-row ank-alignItems-stretch ank-gap-12px ank-paddingTop-6px",
+        "components": [
+          "finalWhatsappLink",
+          "finalWishlistLink"
+        ]
+      }
+    },
+    {
+      "id": "finalWhatsappLink",
+      "type": "link",
+      "config": {
+        "id": "final-whatsapp",
+        "href": "https://wa.me/525522699563?text=Hola%20Alec,%20confirma%20mi%20entrada%20al%20Alecfest%20Vol.%20III",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-block ank-width-100per ank-textAlign-center ank-px-16px ank-py-12px ank-bg-accentColor ank-textDecoration-none ank-fontWeight-900 ank-border-2px__solid__bgColor ank-boxShadow-5px__5px__0__0__bgColor",
+        "components": [
+          "finalWhatsappLinkText"
+        ]
+      }
+    },
+    {
+      "id": "finalWhatsappLinkText",
+      "type": "text",
+      "config": {
+        "tag": "span",
+        "text": "Caerle al Alecfest",
+        "classes": "ank-color-dark ank-fontWeight-900"
+      }
+    },
+    {
+      "id": "finalWishlistLink",
+      "type": "link",
+      "config": {
+        "id": "final-wishlist",
+        "href": "https://www.amazon.com.mx/hz/wishlist/ls/ZWUXMKNAZ2X?ref_=wl_share",
+        "text": "Pasar a la wishlist",
+        "target": "_blank",
+        "rel": "noopener noreferrer",
+        "classes": "ank-display-block ank-width-100per ank-textAlign-center ank-px-16px ank-py-12px ank-bg-bgColor ank-color-linkColor ank-textDecoration-none ank-fontWeight-900 ank-border-2px__solid__linkColor ank-boxShadow-5px__5px__0__0__bgColor"
+      }
+    },
+    {
+      "id": "finalImageWall",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "classes": "ank-display-grid ank-gridTemplateColumns-1fr__1fr ank-gridTemplateColumns-md-repeatSD3COM1frED ank-gap-12px",
+        "components": [
+          "finalImage02",
+          "finalImage03",
+          "finalImage01"
+        ]
+      }
+    },
+    {
+      "id": "finalImage01",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/a24_movie.jpg",
+        "alt": "Cierre con energía de película rara pero invitacional",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 226,
+        "height": 37,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "finalImage02",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/que_se_repita.jpg",
+        "alt": "Deseo final de repeticion del ritual",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 828,
+        "height": 918,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "finalImage03",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/yo_amo_a_todos.jpg",
+        "alt": "Cierre afectuoso del festival",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 1080,
+        "height": 626,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "finalImage04",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/adio_tonotos.jpg",
+        "alt": "Despedida ceremonial al final de toda la página",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 500,
+        "height": 465,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    },
+    {
+      "id": "outroImage",
+      "type": "media",
+      "config": {
+        "tag": "image",
+        "src": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/adio_tonotos.jpg",
+        "alt": "Despedida ceremonial al final de toda la página",
+        "classes": "ank-width-100per ank-display-block ank-bg-bgColor ank-boxShadow-0__12px__28px__bgColor__OPA__0_42",
+        "width": 500,
+        "height": 465,
+        "decoding": "async",
+        "loading": "lazy"
+      }
+    }
+  ]
+}

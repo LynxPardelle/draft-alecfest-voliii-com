@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "pageId": "default",
+  "domain": "alecfest-voliii.com",
+  "rootIds": ["skipToMainLink", "siteHeader", "landingPage", "siteFooter"],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "draft_experiment",
+    "source": "assistant-generated from user creative brief",
+    "versionTag": "v0.1.0",
+    "owner": "Alec"
+  },
+  "seo": {
+    "title": "Alecfest Vol. III | Invitacion experimental",
+    "description": "Invitacion experimental para el Alecfest Vol. III: una semana de cumpleanos, chucherias, pijamadas, juegos, nueva casita y culto absoluto a Maria Antonieta.",
+    "canonical": "https://alecfest-voliii.zoolandingpage.com.mx",
+    "openGraph": {
+      "title": "Alecfest Vol. III | Invitacion experimental",
+      "description": "Una semana de cumpleanos, chucherias, pijamadas, juegos, memes y Maria Antonieta Supreme.",
+      "image": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+      "url": "https://alecfest-voliii.zoolandingpage.com.mx",
+      "type": "website"
+    },
+    "twitter": {
+      "title": "Alecfest Vol. III | Invitacion experimental",
+      "description": "Una semana de cumpleanos, chucherias, pijamadas, juegos, memes y Maria Antonieta Supreme.",
+      "image": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+      "card": "summary_large_image"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Alecfest Vol. III",
+        "description": "Celebracion experimental de cumpleanos del 6 al 12 de abril de 2026.",
+        "startDate": "2026-04-06",
+        "endDate": "2026-04-12",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "Mi nueva casita"
+        },
+        "organizer": {
+          "@type": "Person",
+          "name": "Alec"
+        },
+        "image": ["https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg"]
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [],
+    "scrollMilestones": []
+  }
+}

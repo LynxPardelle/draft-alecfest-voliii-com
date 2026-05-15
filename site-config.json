@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "domain": "alecfest-voliii.com",
+  "aliases": ["alecfest-voliii.zoolandingpage.com.mx", "alecfest-voliii.lynxpardelle.com"],
+  "defaultPageId": "default",
+  "routes": [
+    {
+      "path": "/",
+      "pageId": "default",
+      "label": "Alecfest Vol. III"
+    }
+  ],
+  "site": {
+    "theme": {
+      "defaultMode": "dark",
+      "palettes": {
+        "light": {
+          "bgColor": "#f5f2e8",
+          "textColor": "#1f1d18",
+          "titleColor": "#111111",
+          "linkColor": "#8f6d00",
+          "accentColor": "#67b80f",
+          "secondaryBgColor": "#e5e0d2",
+          "secondaryTextColor": "#2d291f",
+          "secondaryTitleColor": "#111111",
+          "secondaryLinkColor": "#6d950d",
+          "secondaryAccentColor": "#4b5f15",
+          "successColor": "#198754",
+          "onSuccessColor": "#052e1c",
+          "errorColor": "#dc3545",
+          "onErrorColor": "#3b0a10",
+          "warningColor": "#f5b942",
+          "onWarningColor": "#3a2400",
+          "infoColor": "#0d6efd",
+          "onInfoColor": "#041b44"
+        },
+        "dark": {
+          "bgColor": "#070807",
+          "textColor": "#ddd8ca",
+          "titleColor": "#eefb90",
+          "linkColor": "#ffd447",
+          "accentColor": "#97f23d",
+          "secondaryBgColor": "#12160f",
+          "secondaryTextColor": "#f4eedc",
+          "secondaryTitleColor": "#fff8d6",
+          "secondaryLinkColor": "#c1ff69",
+          "secondaryAccentColor": "#394f13",
+          "successColor": "#32d583",
+          "onSuccessColor": "#f3fff8",
+          "errorColor": "#ff6b6b",
+          "onErrorColor": "#fff5f5",
+          "warningColor": "#f5b942",
+          "onWarningColor": "#fff7e6",
+          "infoColor": "#58a6ff",
+          "onInfoColor": "#f5fbff"
+        }
+      }
+    },
+    "appIdentity": {
+      "identifier": "alecfestvoliiicom",
+      "name": "ALECFEST VOL. III",
+      "version": "1.0.0",
+      "description": "Experimental birthday landing draft for Alecfest Vol. III."
+    },
+    "seo": {
+      "siteName": "ALECFEST VOL. III",
+      "title": "ALECFEST VOL. III",
+      "description": "Invitacion experimental para el Alecfest Vol. III, una semana de cumpleanos, chucherias, pijamadas, juegos y culto absoluto a Maria Antonieta.",
+      "canonicalOrigin": "https://alecfest-voliii.zoolandingpage.com.mx",
+      "defaultImage": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+      "openGraph": {
+        "type": "website",
+        "site_name": "ALECFEST VOL. III"
+      },
+      "twitter": {
+        "card": "summary_large_image"
+      },
+      "keywords": [
+        "alecfest vol. iii",
+        "invitacion experimental",
+        "cumpleanos",
+        "semana de cumpleanos",
+        "maria antonieta",
+        "festival privado"
+      ],
+      "robots": "index,follow,max-image-preview:large"
+    },
+    "i18n": {
+      "defaultLanguage": "es",
+      "supportedLanguages": [
+        {
+          "code": "es",
+          "label": "ES"
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "ui": {
+      "loadingCurtain": {
+        "title": "ALECFEST VOL. III",
+        "subtitle": "Sintonizando la señal",
+        "logoUrl": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+        "background": "#070807",
+        "foreground": "#eefb90",
+        "accent": "#97f23d",
+        "exitDurationMs": 420
+      }
+    }
+  },
+  "runtime": {
+    "localStorage": {
+      "theme": "alecfest-voliii-theme",
+      "language": "alecfest-voliii-language",
+      "userPreferences": "alecfest-voliii-preferences",
+      "id": "alecfest-voliii-id",
+      "sessionId": "alecfest-voliii-session-id",
+      "allowAnalytics": "alecfest-voliii-allow-analytics",
+      "analyticsConsentSnooze": "alecfest-voliii-allow-analytics-snooze",
+      "pageViewCount": "alecfest-voliii-page-view-count"
+    },
+    "features": {
+      "debugMode": false
+    },
+    "analytics": {
+      "enabled": true,
+      "consentUI": "none",
+      "consentSnoozeSeconds": 30,
+      "track": [
+        "ip",
+        "userAgent",
+        "language",
+        "platform",
+        "vendor",
+        "cookiesEnabled",
+        "doNotTrack",
+        "screenWidth",
+        "screenHeight",
+        "colorDepth",
+        "timezone",
+        "geolocationLatitude",
+        "geolocationLongitude",
+        "geolocationAccuracy",
+        "cookies",
+        "battery",
+        "connection"
+      ]
+    }
+  }
+}
