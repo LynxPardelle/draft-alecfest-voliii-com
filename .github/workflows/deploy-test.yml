@@ -1,0 +1,35 @@
+name: Deploy test draft
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - test
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION || 'us-east-1' }}
+
+      - name: Deploy test draft
+        run: node tools/deploy-draft.mjs --environment=test
+        env:
+          DRAFT_DOMAIN: ${{ vars.DRAFT_DOMAIN }}
+          DRAFT_ROOT: ${{ vars.DRAFT_ROOT || '.' }}
+          AUTHORING_ENDPOINT: ${{ vars.AUTHORING_ENDPOINT }}
+          AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}

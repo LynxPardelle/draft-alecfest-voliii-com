@@ -1,7 +1,10 @@
 {
   "version": 1,
   "domain": "alecfest-voliii.com",
-  "aliases": ["alecfest-voliii.zoolandingpage.com.mx", "alecfest-voliii.lynxpardelle.com"],
+  "aliases": [
+    "alecfest-voliii.zoolandingpage.com.mx",
+    "alecfest-voliii.lynxpardelle.com"
+  ],
   "defaultPageId": "default",
   "routes": [
     {
@@ -144,6 +147,15 @@
         "cookies",
         "battery",
         "connection"
+      ]
+    }
+  },
+  "environments": {
+    "test": {
+      "aliases": [
+        "test.alecfest-voliii.com",
+        "test.alecfest-voliii.lynxpardelle.com",
+        "test.alecfest-voliii.zoolandingpage.com.mx"
       ]
     }
   }
