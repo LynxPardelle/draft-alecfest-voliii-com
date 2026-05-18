@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "pageId": "not-found",
+  "domain": "alecfest-voliii.com",
+  "rootIds": [
+    "skipToMainLink",
+    "notFoundPage"
+  ],
+  "modalRootIds": [],
+  "metadata": {
+    "status": "local-draft",
+    "routePurpose": "not-found-recovery"
+  },
+  "seo": {
+    "title": {
+      "es": "Página no encontrada | ALECFEST VOL. III",
+      "en": "Page not found | ALECFEST VOL. III",
+      "fr": "Page introuvable | ALECFEST VOL. III",
+      "de": "Seite nicht gefunden | ALECFEST VOL. III"
+    },
+    "description": {
+      "es": "La página solicitada no está disponible en ALECFEST VOL. III. Vuelve al inicio o usa una ruta publicada para continuar.",
+      "en": "The requested page is not available on ALECFEST VOL. III. Return home or use a published route to continue.",
+      "fr": "La page demandée n'est pas disponible sur ALECFEST VOL. III. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+      "de": "Die angeforderte Seite ist auf ALECFEST VOL. III nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+    },
+    "canonical": "https://alecfest-voliii.zoolandingpage.com.mx/404",
+    "robots": "noindex,follow",
+    "keywords": {
+      "es": [
+        "pagina no encontrada",
+        "ALECFEST VOL. III"
+      ],
+      "en": [
+        "page not found",
+        "ALECFEST VOL. III"
+      ],
+      "fr": [
+        "page introuvable",
+        "ALECFEST VOL. III"
+      ],
+      "de": [
+        "seite nicht gefunden",
+        "ALECFEST VOL. III"
+      ]
+    },
+    "openGraph": {
+      "title": {
+        "es": "Página no encontrada | ALECFEST VOL. III",
+        "en": "Page not found | ALECFEST VOL. III",
+        "fr": "Page introuvable | ALECFEST VOL. III",
+        "de": "Seite nicht gefunden | ALECFEST VOL. III"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en ALECFEST VOL. III. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on ALECFEST VOL. III. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur ALECFEST VOL. III. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf ALECFEST VOL. III nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+      "url": "https://alecfest-voliii.zoolandingpage.com.mx/404",
+      "type": "website"
+    },
+    "twitter": {
+      "title": {
+        "es": "Página no encontrada | ALECFEST VOL. III",
+        "en": "Page not found | ALECFEST VOL. III",
+        "fr": "Page introuvable | ALECFEST VOL. III",
+        "de": "Seite nicht gefunden | ALECFEST VOL. III"
+      },
+      "description": {
+        "es": "La página solicitada no está disponible en ALECFEST VOL. III. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "en": "The requested page is not available on ALECFEST VOL. III. Return home or use a published route to continue.",
+        "fr": "La page demandée n'est pas disponible sur ALECFEST VOL. III. Revenez à l'accueil ou utilisez une route publiée pour continuer.",
+        "de": "Die angeforderte Seite ist auf ALECFEST VOL. III nicht verfügbar. Kehre zur Startseite zurück oder nutze eine veröffentlichte Route."
+      },
+      "image": "https://assets.zoolandingpage.com.mx/alecfest-voliii.com/default/images/maria_antonieta.jpg",
+      "card": "summary_large_image"
+    }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Página no encontrada | ALECFEST VOL. III",
+        "description": "La página solicitada no está disponible en ALECFEST VOL. III. Vuelve al inicio o usa una ruta publicada para continuar.",
+        "url": "https://alecfest-voliii.zoolandingpage.com.mx/404",
+        "inLanguage": "es"
+      }
+    ]
+  },
+  "analytics": {
+    "sectionIds": [
+      "home",
+      "rutas"
+    ],
+    "scrollMilestones": [
+      50,
+      100
+    ]
+  }
+}
