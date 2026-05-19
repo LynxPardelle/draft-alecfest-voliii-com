@@ -11,6 +11,11 @@
       "path": "/",
       "pageId": "default",
       "label": "Alecfest Vol. III"
+    },
+    {
+      "path": "/404",
+      "pageId": "not-found",
+      "label": "Página no encontrada"
     }
   ],
   "site": {
@@ -158,5 +163,11 @@
         "test.alecfest-voliii.zoolandingpage.com.mx"
       ]
     }
+  },
+  "notFoundPageId": "not-found",
+  "sitemap": {
+    "excludePaths": [
+      "/404"
+    ]
   }
 }
