@@ -155,15 +155,6 @@
       ]
     }
   },
-  "environments": {
-    "test": {
-      "aliases": [
-        "test.alecfest-voliii.com",
-        "test.alecfest-voliii.lynxpardelle.com",
-        "test.alecfest-voliii.zoolandingpage.com.mx"
-      ]
-    }
-  },
   "notFoundPageId": "not-found",
   "sitemap": {
     "excludePaths": [
